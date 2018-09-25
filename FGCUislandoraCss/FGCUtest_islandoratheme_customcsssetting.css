@@ -1,0 +1,278 @@
+#header-wrapper header {
+    display: block;}
+
+div#logo img{margin-left: 0px;}
+
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; }
+.flex-direction-nav a {
+    height: 50px;
+}
+
+/*hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC;
+    border-image: none;
+    border-right: 0 solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+}*/
+
+input.form-button, input.form-submit {
+    padding: 3px 11px;}
+
+/*Page Wide Styles*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*Header*/
+div#header-wrapper div#branding, #footer-wrapper .block-inner {
+ background: #ededed; /* Old browsers */
+background: -moz-linear-gradient(top, #ededed 0%, #f9f9f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#f9f9f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ededed 0%,#f9f9f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ededed 0%,#f9f9f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ededed 0%,#f9f9f9 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ededed 0%,#f9f9f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
+}
+
+#logo { padding-top: 5px; display: block; text-align: left; }
+
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }
+
+/* Menu Bar Styles */
+#menu-bar { background-color: black; }
+.nav .block-menu ul li a.active { background-color: white; }
+ul.vertical-tabs-list li a { color: black; }
+.nav .block-menu ul.menu li a { color: #ffffff;}
+.nav .block-menu ul.menu li a.active { color: black; }
+
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #ffffff; color: black; text-shadow: none; }
+
+/* Collection Browse Styles */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #000000; background-color: #e9ede9; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+/*Main Content*/
+.block-title { font-size: 1.1em; margin-bottom: 10px; border-bottom: 4px solid #00287A; }
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #00287A; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #00287A; }
+div.region-highlighted {
+background: #ffffff
+}
+div#top-panels-wrapper .three-3x33 { background-color: #005236;
+ background: #005236; /* Old browsers */
+background: -moz-linear-gradient(top, #104f3a 0%, #005f38 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#104f3a), color-stop(100%,#005f38)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #104f3a 0%,#005f38 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #104f3a 0%,#005f38 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #104f3a 0%,#005f38 100%); /* IE10+ */
+background: linear-gradient(to bottom, #104f3a 0%,#005f38 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#104f3a', endColorstr='#005f38',GradientType=0 ); /* IE6-9 */
+ } 
+section#block-islandora-solr-simple h2 {
+    color: white; border-bottom: 4px solid white}
+div#edit-simple label{color:white;}
+
+
+/* MenuBold tag went here*/
+.ui-widget-content a { color: #00287A; }
+div.region-sidebar-first div.block-inner { background: #dedede; }
+section#block-islandora-solr-sort div.block-inner { background: #efefef; }
+.ui-widget-header {background: #00287A; }
+
+/*Object Level Styles*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: #c8d2ea; /* Old browsers */
+background: -moz-linear-gradient(top,  #acb8d5 0%, #c8d2ea 40%, #ebeef5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#acb8d5), color-stop(40%,#c8d2ea), color-stop(100%,#ebeef5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #acb8d5 0%,#c8d2ea 40%,#ebeef5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #acb8d5 0%,#c8d2ea 40%,#ebeef5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #acb8d5 0%,#c8d2ea 40%,#ebeef5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #acb8d5 0%,#c8d2ea 40%,#ebeef5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acb8d5', endColorstr='#c8d2ea',GradientType=0 ); /* IE6-9 */
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: white;
+}
+
+
+/* Footer Styles */
+#footer-wrapper .block-inner { color: #00287A; }
+#footer-wrapper .block-inner a { color: #001f48; }
+
+
+/*audio/video template jwplayer size*/
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+
+div.islandora-video-content {width:480px;}
+div.islandora-audio-content {width:480px;}
+
+.islandora-solr-facet-wrapper .plusminus {font-size: 95%;}
+
+
+/*digital library and ir splash page block configuration*/
+section#block-block-4 {
+       float: left;
+    max-width: 495px;
+    margin: 1%;
+    background-color: WhiteSmoke;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    min-width: 270px;
+    min-height: 356px;
+    clear:none;
+}
+
+section#block-block-4 p {
+padding: 5px;
+}
+
+
+
+section#block-block-5 {
+       float: left;
+    max-width: 495px;
+    margin: 1%;
+    background-color: WhiteSmoke;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    min-width: 270px;
+    min-height: 356px;
+clear: none;
+}
+
+section#block-block-5 p {
+padding: 5px;
+}
+
+
+#block-block-6 {
+background-color: #ffffff;
+    float: left;
+   width: 23.5%;
+    padding: 3px;
+   border: grey 1px;
+    border-style: solid;
+   color: #FFFFFF;
+   font-size: 1.5em;
+   clear: none;
+   margin: 1%;
+height: 453px;
+
+
+}
+
+#block-block-6 ul {
+list-style-type: none;
+background-color: #B8CA99;
+margin: 1%;
+width: auto;
+height: 447px;
+
+}
+
+
+#block-block-6 li {
+list-style-type: none;
+text-align: left;
+  border-bottom: 1px solid #ffffff;
+padding-top: 10%;
+padding-bottom: 7%;
+padding-left: 5px;
+background-color: #B8CA99;
+width: auto;
+text-decoration: none;
+color: #ffffff;
+height: auto;
+  }
+
+
+#block-block-6 li:hover {
+background: white;
+color: black;
+text-decoration: none;
+}
+
+#block-block-6 li a {
+display: block;
+text-decoration:none;
+color: #ffffff;
+}
+
+#block-block-6 li a:active{
+color: #ffffff;
+text-decoration: none;
+}
+
+#block-block-6 li a:hover {
+color: black;
+text-decoration: none;
+background: white;
+}
+
+#block-block-6 li:last-child { border-bottom: none; } 
+
+
+#block-views-ir-slideshow-block {
+ float: left;
+ width: 70%;
+clear: none;
+  padding: 3px;
+   border: grey 1px;
+    border-style: solid;
+ margin-top: 1%;
+}
+
+
+#block-views-72d84fb64ee5036063aea9108d73a6b0 {
+ width: 50%;
+    float: left;
+    margin: 1%;
+    padding: 3px;
+   border-right: 1px grey;
+   border-left: 1px grey;
+   border-left-style: dotted;
+ border-right-style: dotted;
+}
+
+section#block-views-72d84fb64ee5036063aea9108d73a6b0 h2 {
+color: black;
+font-size: 2em;
+border: none;
+text-transform: capitalize;
+}
+
+div.view-clone-of-recent-publications-by-scholar .view-content a {
+color: #00287A;
+]
+
+div.view-clone-of-recent-publications-by-scholar .more-link a {
+    text-align: right;
+background: #00287A;
+color: white;
+} 
+
+#islandora-metadata-fields li:last-child dt {
+visibility: hidden;
+}
+ 
