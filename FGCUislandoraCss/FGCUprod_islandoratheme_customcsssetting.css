@@ -242,6 +242,7 @@ background: white;
 #block-block-6 li:last-child { border-bottom: none; } 
 
 
+/*IR slideshow*/
 #block-views-ir-slideshow-block {
  float: right;
  width: 70%;
