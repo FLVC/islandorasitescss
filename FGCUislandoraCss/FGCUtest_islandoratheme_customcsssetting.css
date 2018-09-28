@@ -166,10 +166,13 @@ padding: 5px;
 }
 
 
+
+/*left IR menu*/
 #block-block-6 {
 background-color: #ffffff;
     float: left;
    width: 25%;
+   min-width: 325px;
     padding: 3px;
    border: grey 1px;
     border-style: solid;
@@ -199,7 +202,7 @@ padding-left: 5px;
 background-color: #B8CA99;
 text-decoration: none;
 color: #ffffff;
-height: 73px;
+min-height: 73px;
 line-height: 73px;
   }
 
