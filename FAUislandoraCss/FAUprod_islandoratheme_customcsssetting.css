@@ -139,14 +139,14 @@ div.region-highlighted .block:last-child { margin-bottom: 0; }
 /*left box*/
 section#block-block-6 {
        float: left;
+    padding: 1%;
     margin-top: 1%;
-margin-left: 4.5%;
-padding: 5px;
-    width: 470px;
+    max-width: 470px;
+    width: 45%;
     background-color: WhiteSmoke;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #888888;
-    height: 350px;
+    min-height: 350px;
 color: #003366;
     clear:none;
 font-family: palantino, serif;
@@ -165,13 +165,14 @@ color: #003366;
 /*right box*/
 section#block-block-7 {
        float: left;
+    padding: 1%;
     margin: 1%;
-padding: 5px;
-    width: 470px;
+    max-width: 470px;
+    width: 45%;
     background-color: WhiteSmoke;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #888888;
-   height: 350px;
+   min-height: 350px;
 clear: none;
 font-family: palantino, serif;
 color: #003366;
@@ -182,7 +183,7 @@ padding: 5px;
 }
 
 /*Page title*/
- article#node-34 h1 {
+ article#node-36 h1 {
 color: #003366;
 font-family: palantino, serif;
 }
@@ -198,6 +199,11 @@ color: #003366;
 text-shadow:2px 2px #e8e8e8;
 font-weight: bold;
 margin-left: 25%;
+}
+
+#digitalbox a {
+text-decoration: none;
+color:  #003366;
 }
 
 #irbox {
