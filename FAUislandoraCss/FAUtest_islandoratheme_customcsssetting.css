@@ -138,9 +138,8 @@ div.region-highlighted .block:last-child { margin-bottom: 0; }
 /*left box*/
 section#block-block-4 {
        float: left;
-    margin-top: 1%;
-margin-left: 4.5%;
-padding: 5px;
+    padding: 1%;
+    margin: 1%;
     max-width: 470px;
     width: 45%;
     background-color: WhiteSmoke;
@@ -165,8 +164,8 @@ color: #003366;
 /*right box*/
 section#block-block-5 {
        float: left;
+    padding: 1%;
     margin: 1%;
-padding: 5px;
     max-width: 470px;
     width: 45%;
     background-color: WhiteSmoke;
