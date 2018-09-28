@@ -138,10 +138,11 @@ div.region-highlighted .block:last-child { margin-bottom: 0; }
 /*digital library and ir splash page block configuration*/
 /*left box*/
 section#block-block-6 {
-       float: left;
+    float: left;
     padding: 1%;
-    margin-top: 1%;
     max-width: 470px;
+    min-width: 270px;
+    margin: 1%;
     width: 45%;
     background-color: WhiteSmoke;
     border-radius: 5px;
@@ -164,10 +165,11 @@ color: #003366;
 
 /*right box*/
 section#block-block-7 {
-       float: left;
+    float: left;
     padding: 1%;
     margin: 1%;
     max-width: 470px;
+    min-width: 270px;
     width: 45%;
     background-color: WhiteSmoke;
     border-radius: 5px;

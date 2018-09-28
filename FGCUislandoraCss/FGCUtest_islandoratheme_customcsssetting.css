@@ -132,7 +132,7 @@ div.islandora-audio-content {width:480px;}
 
 /*digital library and ir splash page block configuration*/
 section#block-block-4 {
-       float: left;
+    float: left;
     max-width: 495px;
     margin: 1%;
     background-color: WhiteSmoke;
