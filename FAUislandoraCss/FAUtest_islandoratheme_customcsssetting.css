@@ -226,6 +226,7 @@ color:  #003366;
 background-color: #ffffff;
     float: left;
    width: 25%;
+   min-width: 230px;
     padding: 3px;
    border: grey 1px;
     border-style: solid;
@@ -254,7 +255,7 @@ background-color: #cccccc;
 text-decoration: none;
 color: #ffffff;
 font-family: palantino, serif;
-height: 55px;
+min-height: 55px;
 line-height: 55px;
   }
 
@@ -299,14 +300,14 @@ background: white;
 
 /*IR slideshow*/
 #block-views-ir-paage-slideshow-block {
- float:right;
- width: 70%;
+   float:left;
+   width: 70%;
+   min-width: 230px;
 clear: none;
-  padding: 3px;
    border: grey 1px;
     border-style: solid;
  margin-top: 1%;
-height:453px;
+max-height:453px;
 }
 
 
