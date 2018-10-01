@@ -383,3 +383,16 @@ width: 100%;
 color: #003366;
 font-family: palantino, serif;
 }
+
+
+/* Hide "Status" and "Publications" columns off of faculty grid view */
+
+.views-field-MADS-status-ms
+{
+	visibility:hidden;
+}
+
+.views-field-MADS-u1-ms
+{
+	visibility:hidden;
+}
