@@ -1,0 +1,211 @@
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; }
+.flex-direction-nav a {
+    height: 50px;
+}
+
+/*Site-Specific tweaks*/
+.bb-n {
+    background-image: url('http://www.broward.edu/_layouts/BC/en-us/UI%20Resources/Styles/images/bg1.jpg');
+background-repeat:no-repeat;
+background-color: #D9D4C4;
+}
+/* Compound Object theming */
+.islandora-compound-caption {color:#002e52;}
+.islandora-compound-title {color:#002e52;}
+.islandora-compound-title a:link {color:#002e52;}
+.islandora-compound-title a:visited {color:#002e52;}
+.islandora-compound-prev-next {color:#002e52;}
+.islandora-compound-prev-next a:link {color:#002e52;}
+.islandora-compound-prev-next a:visited {color:#002e52;}
+/*END Site-Specific tweaks*/
+
+
+/*CUSTOM STYLES INPUT and OVERIDES. OTHER CSS FOUND IN ADAPTIVETHEME/ISLANDORATHEME AND COROLLA CSS FILES.*/
+
+/*------------Page Wide Styles------------*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*PERSISTENT/FRONT-ADV.SEARCH/TOP LEVEL STYLES. Header - Footer*/
+
+/*------------Header------------*/
+div#header-wrapper div#branding {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #d1d1d1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d1d1d1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#d1d1d1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#d1d1d1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#d1d1d1 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#d1d1d1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-9 */
+}
+#logo { padding-top: 5px; display: block; text-align: left; background-color: #146bb5; }
+/*------------END Header------------*/
+
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: black;
+/* font-family: "Avenir Next Demi Bold"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+text-transform: uppercase;
+font-color: ffffff;
+}
+section#block-islandora-solr-simple h2 {color: white; } 
+/*Search in text color*/ div#edit-simple label{color:white; font-weight: bold;} /*'for' color*/
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
+/*-------------END "SEARCH IN" Bar---------------*/
+
+/* ------------Menu Bar Styles------------ */
+#menu-bar {background: #002e52;
+/* font-family: "Avenir Next Demi Bold"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+text-transform: uppercase;
+}
+.nav .block-menu ul li a.active { background-color: white; }
+ul.vertical-tabs-list li a { color: #002e5f; }
+.nav .block-menu ul.menu li a { color: #ffffff;}
+.nav .block-menu ul.menu li a:hover { color: #fcfa71;}
+.nav .block-menu ul.menu li a.active { color: #002e5f; }
+
+#menu-bar .menu-wrapper, #primary-menu-bar .menu-wrapper{
+/* font-family: "Avenir Next Demi Bold"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+}
+/*------------END Menu Bar Styles------------*/
+
+/*------------Highlighted Region------------*/
+div.region-highlighted {
+background: #ffffff;}
+div.region-highlighted {color: black;} /*highlighted text colors*/
+div.region-highlighted .block-title {color: black; border-bottom: 4px solid black;}/*border bottom*/
+/*------------END Highlighted Region------------*/
+
+
+/*------------Main Content------------*/
+.block-title { font-size: 1.1em; margin-bottom: 10px; border-bottom: 4px solid #000000;}
+#main-content h1#page-title { font-size: 1.4em; padding-bottom: 7px; font-color: #002e52;  border-bottom: 4px solid #000000;}
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
+div#islandora-basic-collection-display-switch a {text-decoration: none;}
+div.islandora-basic-collection ul li a {
+text-decoration: none;
+text-transform: capitalize;
+font-weight: bold;
+}
+a.inline {text-decoration: none; font-weight: bold; }
+div.islandora-basic-collection a {
+text-decoration: none;
+text-transform: capitalize;
+}
+.islandora-basic-collection-caption a {
+font-color: #002e52;
+/* font-family: "Avenir Next Demi Bold"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+}
+.islandora-basic-collection-display-switch a.links.inline {
+    text-decoration: none;
+}
+/*------------END Main Content------------*/
+
+/* ------------Footer Styles------------ */
+div#footer-wrapper .block-inner {
+background: #002e52;
+/* font-family: "Avenir Book"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+font-color: #ffffff;
+}
+#footer-wrapper .block-inner { color: white; }
+#footer-wrapper .block-inner a { color: #7CB5EC; text-decoration: none; }
+/* --------- END Footer Styles------------ */
+
+/*!!END PERSISTENT/FRONT-ADV.SEARCH/TOP LEVEL STYLES. Header - Footer!!*/
+
+
+/*View All Items - Query Results*/
+/*------------Narrow Results - Sort Results Blocks------------*/
+.nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
+.ui-widget-content a { color: #000000; }
+div.region-sidebar-first div.block-inner { background: #dedede; }
+section#block-islandora-solr-sort div.block-inner { background: #efefef; }
+.ui-widget-header {background: #003882; }/*???*/
+.islandora-solr-facet-wrapper h4 {font-family: Futura, “Trebuchet MS”, Arial, sans-serif;}
+.count {font-family: Futura, “Trebuchet MS”, Arial, sans-serif;}
+table.islandora-solr-facet tbody tr td a {font-family: Futura, “Trebuchet MS”, Arial, sans-serif;}
+/*END View All Items - Query Results*/
+
+/*----Islandora collections/objects-----*/
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #ffffff; color: black; text-shadow: none; }
+
+/* Collection Browse Styles -"Search this Collection" box */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #000000; background-color: #e3e3e3; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+#local-search-container {width: 200px;}
+#local-search-container h2 { font-family: Futura, “Trebuchet MS”, Arial, sans-serif; }
+
+/*------------Object Level Styles------------*/
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #005596;
+	}
+.ui-tabs-nav {
+background: #002e52;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: #e3e3e3; /* Old browsers */
+background: -moz-linear-gradient(top, #e3e3e3 0%, #8c8b8b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3e3e3), color-stop(100%,#8c8b8b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e3e3e3 0%,#8c8b8b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#8c8b8b',GradientType=0 ); /* IE6-9 */
+}
+/*Object Tab -Inactive*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: white;/*Object Tab -Active*/
+}
+div.islandora-title h3 {
+/* font-family: "Avenir Next Demi Bold"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+text-transform: uppercase;
+}
+div#block-system-main h3 {
+/* font-family: "Avenir Next Demi Bold"; */
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+text-transform: uppercase;
+}
+/*---------End Object Level Styles------------*/
+/*----END Islandora collections/objects-----*/
+
+/*Additional tweaks*/
+input.form-button, input.form-submit {
+    padding: 3px 11px;}/*Go button mod*/
+
+.islandora-compound-prev-next { color: white;}
+.islandora-compound-prev-next a{ color: white;}
+
+/*END Additional tweaks*/
+
+/*audio/video template jwplayer size  */
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+
+div.islandora-video-content {width:480px;}
+div.islandora-audio-content {width:480px;}
