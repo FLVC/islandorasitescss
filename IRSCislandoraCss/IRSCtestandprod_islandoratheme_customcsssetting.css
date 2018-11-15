@@ -44,14 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6003072', e
 
 
 /*--------------"SEARCH IN" Bar----------------*/
-div#top-panels-wrapper .three-3x33 {background: #d8d7df; /* Old browsers */
-background: -moz-linear-gradient(top,  #d8d7df 0%, #ffffff 15%, #ffffff 85%, #d8d7df 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8d7df), color-stop(15%,#ffffff), color-stop(85%,#ffffff), color-stop(100%,#d8d7df)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #d8d7df 0%,#ffffff 15%,#ffffff 85%,#d8d7df 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #d8d7df 0%,#ffffff 15%,#ffffff 85%,#d8d7df 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #d8d7df 0%,#ffffff 15%,#ffffff 85%,#d8d7df 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #d8d7df 0%,#ffffff 15%,#ffffff 85%,#d8d7df 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d7df', endColorstr='#d8d7df',GradientType=0 ); /* IE6-9 */ /* IE6-9 */
+div#top-panels-wrapper .three-3x33 {background: #ffffff;}
 border-left: 4px solid #ffffff; border-right: 4px solid #ffffff;}
 section#block-islandora-solr-simple h2 {
     color: #004990; border-bottom: 4px solid #004990;} /*Search in text color*/
@@ -62,6 +55,12 @@ div#edit-simple label{color:#004990;} /*'for' color*/
 
 section#block-islandora-solr-simple{margin-top: -6px;}
 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #ffffff;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
 
 /* ------------MENU BAR STYLES------------ */
 #menu-bar { background-color: #004990; border-left: 4px solid #ffffff; border-right: 4px solid #ffffff;}
