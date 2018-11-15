@@ -1,0 +1,141 @@
+div.modal-inner {overflow:hidden;} 
+
+.islandora-compound-prev-next a {color:black;}
+.islandora-compound-caption {color:black;}
+.islandora-compound-title {color:black;}
+
+/*Site-Specific tweaks*/
+.islandora-solr-facet-wrapper a {
+    font-size: 1em;}
+	
+#block-islandora-solr-advanced h2{color:black;}
+#block-flvc-custom-display-flvc-custom-display .block-inner {border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC;}
+.bb-n {background-color: #fdfdfd;}
+section.block-islandora-solr h2{color:black;}
+.local-collection-search-title h2{color:black;}
+.islandora-object-branding img{max-height: 125px;}
+
+/*CUSTOM STYLES INPUT and OVERIDES. OTHER CSS FOUND IN ADAPTIVETHEME/ISLANDORATHEME AND COROLLA CSS FILES.*/
+
+/*------------Page Wide Styles------------*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*------------Header------------*/
+div#header-wrapper div#branding {background: #283c5d; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #283c5d 1%, #2a4570 21%, #2d466f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,#283c5d), color-stop(21%,#2a4570), color-stop(100%,#2d466f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #283c5d 1%,#2a4570 21%,#2d466f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #283c5d 1%,#2a4570 21%,#2d466f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #283c5d 1%,#2a4570 21%,#2d466f 100%); /* IE10+ */
+background: linear-gradient(135deg,  #283c5d 1%,#2a4570 21%,#2d466f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283c5d', endColorstr='#2d466f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#logo { padding-top: 5px; display: block; text-align: left; }
+
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: #000000;
+}
+section#block-islandora-solr-simple h2 {
+    color: #ffffff; border-bottom: 4px solid #ffffff; font-weight:400; font-size: 1.1em;} 
+
+/*'Search in' text color*/
+div#edit-simple label{color:#ffffff;} /*'for' color*/
+
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
+
+/* ------------Menu Bar Styles------------ */
+#menu-bar {background: #303f60; /* Old browsers */
+background: -moz-linear-gradient(top,  #303f60 0%, #3c5075 41%, #39557d 77%, #3c5482 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#303f60), color-stop(41%,#3c5075), color-stop(77%,#39557d), color-stop(100%,#3c5482)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #303f60 0%,#3c5075 41%,#39557d 77%,#3c5482 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #303f60 0%,#3c5075 41%,#39557d 77%,#3c5482 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #303f60 0%,#3c5075 41%,#39557d 77%,#3c5482 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #303f60 0%,#3c5075 41%,#39557d 77%,#3c5482 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303f60', endColorstr='#3c5482',GradientType=0 ); /* IE6-9 */
+border-top: 1px #4b5f84;
+margin-bottom: 2em;}
+.nav .block-menu ul li a:hover{color:black;}
+
+/*------------Highlighted Region------------*/
+div.region-highlighted {
+background: #f5f5f5}
+div.region-highlighted {color: black;} /*highlighted text colors*/
+div.region-highlighted .block-title {color: black; border-bottom: 4px solid black;}/*border bottom*/
+
+
+/*------------Main Content------------*/
+.block-title { font-size: 1.3em; margin-bottom: 10px; border-bottom: 4px solid #000000;}
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #000000; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
+
+/* ------------Footer Styles------------ */
+div.region-footer {
+background-color: #ffffff;
+    background-image: url("images/footer.jpg");
+    background-repeat: repeat-x;
+    border-top: 1px solid #d6e7f9;
+margin: 0 20px;}
+#footer-wrapper .block-inner { color: #555555; }
+#footer-wrapper .block-inner a { color: #555555; }
+
+
+/*View All Items - Query Results*/
+/*------------Narrow Results - Sort Results Blocks------------*/
+.ui-widget-content a { color: #000000; }
+div.region-sidebar-first div.block-inner { background: #fafafa; }
+section#block-islandora-solr-sort div.block-inner { background: #f7f7f7; }
+
+.ui-widget-header {background: #455e89; }/*object tab bar*/
+
+/*----Islandora collections/objects-----*/
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #fdfdfd; color: black; text-shadow: none; }
+
+/* Collection Browse Styles -"Search this Collection" box */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #000000; background-color: #ffffff; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+/*------------Object Level Styles------------*/
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #00719a;
+	}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: #e3e3e3; /* Old browsers */
+background: -moz-linear-gradient(top, #e3e3e3 0%, #8c8b8b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3e3e3), color-stop(100%,#8c8b8b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e3e3e3 0%,#8c8b8b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#8c8b8b',GradientType=0 ); /* IE6-9 */
+}/*Object Tab -Inactive*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: white;/*Object Tab -Active*/
+}
+
+
+/*Additional tweaks*/
+input.form-button, input.form-submit {
+    padding: 3px 11px;}/*Go button mod*/
+
+.islandora-compound-prev-next { color: white;}
+.islandora-compound-prev-next a{ color: white;}
+
+/*audio/video template jwplayer size*/
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; }
