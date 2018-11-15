@@ -66,10 +66,8 @@ section#block-islandora-solr-simple h2 {color: white; }
 /* Trying to get search in not to overlap menu on a narrow screen */
 
 .at-panel { clear: both; }
-.region-inner {background: black;
-padding-bottom: 1px;}
-#block-islandora-solr-simple { float: right;}
-#menu-bar {margin-top: 1px;}
+.region-inner {background: black;}
+#block-islandora-solr-simple { float: left;}
 section#block-islandora-solr-simple {margin-bottom: -10px;}
 
 /* ------------Menu Bar Styles------------ */

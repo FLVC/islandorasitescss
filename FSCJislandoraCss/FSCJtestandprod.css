@@ -30,11 +30,10 @@ div#edit-simple label{color:#231f20;} /*'for' color*/
 
 /* Trying to get search in not to overlap menu on a narrow screen */
 
-.at-panel {
-clear: both;
-}
-.region-inner {background: #d3d3d3;}
-#block-islandora-solr-simple { float: right;}
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #d3d3d3;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
 
 /* ------------Menu Bar Styles------------ */
 #menu-bar {background: #231f20; }
