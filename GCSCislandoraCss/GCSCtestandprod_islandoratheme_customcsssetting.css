@@ -38,12 +38,13 @@ div#edit-simple label{color:white;} /*'for' color*/
 #islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
 /*-------------END "SEARCH IN" Bar---------------*/
 
-/*Slideshow*/
-.flexslider { margin-bottom: 0px; border: none; }
-.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
-div.region-highlighted { padding: 0; }
-div.region-highlighted .block:last-child { margin-bottom: 0; }
-.flex-control-nav { display: none; } 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #007987;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
+
 
 /* ------------Menu Bar Styles------------ */
 #menu-bar {background: #002e5f; /* Old browsers */
@@ -75,6 +76,12 @@ div.region-highlighted {color: white;} /*highlighted text colors*/
 div.region-highlighted .block-title {color: white; border-bottom: 4px solid white;}/*border bottom*/
 /*------------END Highlighted Region------------*/
 
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; } 
 
 /*------------Main Content------------*/
 .block-title { font-size: 1.1em; margin-bottom: 10px; border-bottom: 4px solid #002e5f;}
