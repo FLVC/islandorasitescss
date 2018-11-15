@@ -1,0 +1,132 @@
+/*Page Wide Styles*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*Header*/
+div#header-wrapper div#branding, #footer-wrapper .block-inner { 
+  background: #280007; /* Old browsers */
+  background: -moz-linear-gradient(left,  #280007 0%, #5e0117 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#280007), color-stop(100%,#5e0117)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #280007 0%,#5e0117 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #280007 0%,#5e0117 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #280007 0%,#5e0117 100%); /* IE10+ */
+  background: linear-gradient(to right,  #280007 0%,#5e0117 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#280007', endColorstr='#5e0117',GradientType=1 ); /* IE6-9 */
+}
+#logo { padding-top: 5px; display: block; }
+
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; }
+
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #5e0117; }
+
+/* Menu Bar Styles */
+#menu-bar { background-color: black; }
+.nav .block-menu ul li a.active { background-color: white; }
+ul.vertical-tabs-list li a { color: white; }
+
+
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #f8f7e6; color: black; text-shadow: none; }
+
+/* Collection Browse Styles */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #280007; background-color: #d1cba9; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+/*Main Content*/
+.block-title { font-size: 1.1em; border-bottom: 4px solid #5e0117; margin-bottom: 10px; }
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #d1cba9; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #5e0117; }
+div.region-highlighted {
+background: #f3edcb; /* Old browsers */
+background: -moz-linear-gradient(top, #f3edcb 0%, #cec194 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3edcb), color-stop(100%,#cec194)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f3edcb 0%,#cec194 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f3edcb 0%,#cec194 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f3edcb 0%,#cec194 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f3edcb 0%,#cec194 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3edcb', endColorstr='#cec194',GradientType=0 ); /* IE6-9 */
+}
+div#top-panels-wrapper .three-3x33 { background-color: #cec194; }
+.nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
+.ui-widget-content a { color: #5e0117; }
+div.region-sidebar-first div.block-inner { background: #dedede; }
+section#block-islandora-solr-sort div.block-inner { background: #efefef; }
+.ui-widget-header { background: #5e0117; }
+/*Object Level Styles*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: #d1cba9; /* Old browsers */
+background: -moz-linear-gradient(top,  #d1cba9 0%, #dbd5a4 40%, #cec194 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1cba9), color-stop(40%,#dbd5a4), color-stop(100%,#cec194)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d1cba9 0%,#dbd5a4 40%,#cec194 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d1cba9 0%,#dbd5a4 40%,#cec194 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d1cba9 0%,#dbd5a4 40%,#cec194 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d1cba9 0%,#dbd5a4 40%,#cec194 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1cba9', endColorstr='#cec194',GradientType=0 ); /* IE6-9 */
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: white;
+}
+/* Footer Styles */
+#footer-wrapper .block-inner { color: white; }
+#footer-wrapper .block-inner a { color: #cec194; }
+
+
+/*audio/video template jwplayer size*/
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+
+div.islandora-video-content {width:480px;}
+div.islandora-audio-content {width:480px;}
+
+/* Special Pages */
+.not-logged-in.page-islandora-object-fsuroot div#tasks { display: none; }
+.not-logged-in.page-islandora-object-fsuhpmain div#tasks { display: none; }
+.not-logged-in.page-islandora-object-fsucivilwarmain div#tasks { display: none; }
+.page-node-13 .node-title { display: none; }
+
+/* Metadata styles */
+/*
+.typeOfResource { display: none; }
+.issuance { display: none; }
+.form { display: none; }
+.extent { display: none; }
+.language_text { display: none; }
+*/
+
+/* Collection Banners */
+img.islandora-basic-collection-datastream-banner {
+  border-radius: 5px;
+  box-shadow: 1px 1.5px 3px #bbb;
+}
+
+body.page-islandora-search div.block-content img.image-style-none {
+  border-radius: 5px;
+  box-shadow: 1px 1.5px 3px #bbb;
+}
+
+span.islandora-solr-highlight img{
+  display: none;
+}
+
+#related-links-section {
+  background: white;
+  padding: 0 10px 20px 15px;
+  margin-right: 15px;
+  box-shadow: 1px 1.5px 3px #bbb;
+}
+
+p.related-links-present {
+  margin-left: 260px;
+}
+
