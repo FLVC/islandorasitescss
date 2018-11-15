@@ -29,7 +29,7 @@ div#edit-simple label{color:#005c7d;} /*'for' color*/
 /* Trying to get search in not to overlap menu on a narrow screen */
 
 .at-panel { clear: both; }
-.region-inner {background: #d5e8f3;}
+.region-three-33-top .region-inner {background: #d5e8f3;}
 #block-islandora-solr-simple { float: left;}
 section#block-islandora-solr-simple {margin-bottom: -10px;}
 
