@@ -1,0 +1,173 @@
+.islandora-solr-facet-wrapper h4 {
+    font-size: 1.1em;
+font-weight: 400;
+}
+
+#footer-wrapper a{color:#ffffff;}
+
+.region-header {
+background: #0069aa none repeat scroll 0 0;
+display: block;
+padding:0px;
+margin-left:20px;
+margin-right:20px;
+}
+div#block-block-4{float:left; padding:0;margin-top:10px;margin-left:0px;margin-right:0px;margin-bottom:0px;}
+div#branding{display:none;}
+
+.l-logo {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    width: 315px;
+    height:63px;
+margin-top: 0px;
+}
+.uwflogo{
+background-image: url("https://uwf-test.digital.flvc.org/sites/uwf-test.digital.flvc.org/files/uwf_logo.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+text-indent:-119988px;
+height:85%;
+}
+
+/* Hightlighted */
+
+div.region-highlighted {border-right: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC;}
+
+section#block-block-1 {
+    padding: 1%;
+    max-width: 700px;
+    min-width: 270px;
+    margin: 1%;
+    width: 55%;
+    border-radius: 5px;
+    clear:none;
+}
+
+section#block-block-2 {
+    padding: 1%;
+    margin: 1%;
+    max-width: 470px;
+    min-width: 250px;
+    width: 40%;
+    border-radius: 5px;
+clear: none;
+}
+
+/* different section */
+
+div#top-panels-wrapper {height: 46px;}
+section#block-islandora-solr-simple {margin-top: -15px;}
+#edit-islandora-simple-search-query{padding-top: 2px;}
+#edit-islandora-simple-collection{margin-top: 1px;}
+
+.islandora-compound-prev-next a {color:black;}
+.islandora-compound-caption {color:black;}
+.islandora-compound-title {color:black;}
+
+ul.vertical-tabs-list li a {
+    color: #000000;}
+
+/*------------Page Wide Styles------------*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*------------Header------------*/
+div#header-wrapper div#branding {
+background: #0069aa;
+}
+#logo { padding-top: 5px; display: block; text-align: left; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; }
+
+
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: #c1d835; /* Old browsers */
+background: -moz-linear-gradient(top, #c1d835 0%, #c1d835 10%, #ffffff 12%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1d835), color-stop(10%,#c1d835), color-stop(12%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #c1d835 0%,#c1d835 10%,#ffffff 12%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #c1d835 0%,#c1d835 10%,#ffffff 12%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #c1d835 0%,#c1d835 10%,#ffffff 12%); /* IE10+ */
+background: linear-gradient(to bottom, #c1d835 0%,#c1d835 10%,#ffffff 12%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1d835', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */;
+border-left: 1px solid #CCCCCC;
+border-right: 1px solid #CCCCCC;
+}
+section#block-islandora-solr-simple h2 {
+    color: #000000; border-bottom: 4px solid #000000;} /*Search in text color*/
+div#edit-simple label{color:#000000;} /*'for' color*/
+
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #000000; }/*View All ?*/
+
+
+/* ------------MENU BAR STYLES------------ */
+#menu-bar { background-color: black; }
+.nav .block-menu ul li a.active { background-color: white; }
+ul.vertical-tabs-list li a { color: white; }
+
+/*------------MAIN CONTENT------------*/
+.block-title {margin-bottom: 10px; border-bottom: 4px solid #000000;}
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #000000; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
+.content-style {border-right: 1px solid #CCCCCC;
+border-left: 1px solid #CCCCCC;}
+
+
+
+/* ------------FOOTER STYLES------------ */
+div#footer-wrapper .block-inner {
+background: #0069aa;
+border-right: 1px solid #CCCCCC;
+border-left: 1px solid #CCCCCC;
+border-top: 1px solid #CCCCCC}
+#footer-wrapper .block-inner {
+    color: #ffffff;}
+	
+#footer-wrapper .block-inner a.active{color: #ffffff;}
+#footer-wrapper .block-inner li a {color: #ffffff;}
+
+/*VIEW ALL ITEMS - QUERY RESULTS*/
+/*------------Narrow Results - Sort Results Blocks------------*/
+#block-islandora-solr-basic-facets .block-title {border-bottom: 4px solid #000000;}
+.ui-widget-content a { color: #000000 }
+div.region-sidebar-first div.block-inner { background: #ffffff; }
+section#block-islandora-solr-sort div.block-inner { background: #ffffff; }
+.ui-widget-header {background: #0069aa; }/*that object content bar thing*/
+
+
+/*----ISLANDORA COLLECTIONS/OBJECTS-----*/
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #ffffff; color: black; text-shadow: none; }
+
+/* COLLECTION BROWSE STYLES -"SEARCH THIS COLLECTION" BOX */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #000000; background-color: #e3e3e3; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+
+/*Additional tweaks*/
+input.form-button, input.form-submit {
+    padding: 3px 11px;}/*Go button mod*/
+
+/*audio/video template jwplayer size  */
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+
+div.islandora-video-content {width:480px;}
+div.islandora-audio-content {width:480px;}
+
+div.region-three-33-top {
+    margin: 0 20px;
+    padding: 0 0 0;
+}
+
+#main-content h1#page-title {
+    border-bottom: 4px solid #000000;}
