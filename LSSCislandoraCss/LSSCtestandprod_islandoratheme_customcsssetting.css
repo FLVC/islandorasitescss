@@ -90,6 +90,12 @@ div#edit-simple label{color:#004b98;} /*'for' color*/
 /* Basic Search Styles */
 #islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #f0f6fb;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
 
 /* ------------MENU BAR STYLES------------ */
 #menu-bar {background: #004b98; border-right: 2px solid #cbcbcb; border-left: 2px solid #cbcbcb; border-bottom: 2px solid #cbcbcb; border-top: 1px solid #cbcbcb;
