@@ -28,6 +28,14 @@ div#edit-simple label{color:#231f20;} /*'for' color*/
 /* Basic Search Styles */
 #islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {
+clear: both;
+}
+.region-inner {background: #d3d3d3;}
+#block-islandora-solr-simple { float: right;}
+
 /* ------------Menu Bar Styles------------ */
 #menu-bar {background: #231f20; }
 .nav .block-menu ul li a.active { background-color: #231f20; border-left: 1px solid #005c7d;
