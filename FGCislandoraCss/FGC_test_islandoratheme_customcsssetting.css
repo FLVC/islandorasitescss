@@ -25,6 +25,13 @@ div#edit-simple label{color:#000000;}
 /* Basic Search Styles */
 #islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #dbdad9;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
+
 /* ------------Menu Bar Styles------------ */
 #menu-bar {background: #000000;
 }
