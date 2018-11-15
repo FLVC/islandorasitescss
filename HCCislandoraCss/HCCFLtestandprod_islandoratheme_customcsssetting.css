@@ -41,14 +41,7 @@ background: #0a2946;
 
 
 /*--------------"SEARCH IN" Bar----------------*/
-div#top-panels-wrapper .three-3x33 {background: #efefea; /* Old browsers */
-background: -moz-linear-gradient(top,  #efefea 0%, #ffffff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefea), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #efefea 0%,#ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+div#top-panels-wrapper .three-3x33 {background: #efefea;
 border-left: 1px solid #CCCCCC;
 border-right: 1px solid #CCCCCC;
 }
@@ -59,6 +52,12 @@ div#edit-simple label{color:#000000;} /*'for' color*/
 /* Basic Search Styles */
 #islandora-basic-view-all-option { border-bottom: 4px solid #000000; }/*View All ?*/
 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #efefea;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
 
 /* ------------MENU BAR STYLES------------ */
 #menu-bar {background: #0d5274;
