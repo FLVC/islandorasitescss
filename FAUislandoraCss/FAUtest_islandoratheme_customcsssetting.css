@@ -32,11 +32,22 @@ div#header-wrapper div#branding, #footer-wrapper .block-inner {
 }
 #logo { padding-top: 5px; display: block; text-align: left; }
 
-/* Basic Search Styles */
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: #cccccc;
+}
 #islandora-basic-view-all-option { border-bottom: 4px solid #003366; }
 .region-three-33-top .block h2, .region-three-33-top .block label { color: black; font-family: palatino; }
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }
 
-/* Menu Bar Styles */
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #cccccc;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
+
+/* ------------Menu Bar Styles------------ */
 #menu-bar { background-color: black;}
 .nav .block-menu ul li a.active { background-color: white; }
 ul.vertical-tabs-list li a { color: white; }
@@ -81,7 +92,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003366', end
 }
 div#top-panels-wrapper .three-3x33 { background-color: #CCCCCC; border-top: 3px solid #c00; }
 div#top-panels-wrapper {height: 46px;}
-section#block-islandora-solr-simple {margin-top: -15px;}
 #edit-islandora-simple-search-query {margin-top: -2px;}
 .nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
 .ui-widget-content a { color: #003366; }
