@@ -50,6 +50,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', end
 /* Basic Search Styles */
 #islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }
 
+/* Trying to get search in not to overlap menu on a narrow screen */
+
+.at-panel {clear: both;}
+.region-three-33-top .region-inner {background: #055938;}
+#block-islandora-solr-simple { float: left;}
+section#block-islandora-solr-simple {margin-bottom: -10px;}
+
 /* Menu Bar Styles */
 #menu-bar { background-color: black; }
 .nav .block-menu ul li a.active { background-color: white; }
