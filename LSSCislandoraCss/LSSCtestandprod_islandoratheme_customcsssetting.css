@@ -1,0 +1,213 @@
+div.modal-inner {overflow:hidden;} 
+
+.islandora-solr-highlight img[title~="descending"]{background-image: url("https://lssc-test.digital.flvc.org/sites/lssc-test.digital.flvc.org/files/custom_logos/tablesort-descending-g.png");
+    box-sizing: border-box;
+    display: inline;
+    height: 6px;
+    padding-left: 6px;
+    width: 6px
+}
+.islandora-solr-highlight img[title~="ascending"]{background-image: url("https://lssc-test.digital.flvc.org/sites/lssc-test.digital.flvc.org/files/custom_logos/tablesort-ascending-g.png");
+    box-sizing: border-box;
+    display: inline;
+    height: 6px;
+    padding-left: 6px;
+    width: 6px
+}
+
+dl.islandora-inline-metadata {font-size: 93%;}
+.islandora-inline-metadata dd {padding-left: 45px;}
+
+.bb-n {
+
+background: rgb(183,205,186) no-repeat fixed center;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I3Y2RiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOGVkZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+) no-repeat fixed center;
+background: -moz-linear-gradient(top,  rgb(183,205,186) 0%, rgb(232,237,229) 100%) no-repeat fixed center;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(183,205,186)), color-stop(100%,rgb(232,237,229))) no-repeat fixed center;
+background: -webkit-linear-gradient(top,  rgb(183,205,186) 0%,rgb(232,237,229) 100%) no-repeat fixed center;
+background: -o-linear-gradient(top,  rgb(183,205,186) 0%,rgb(232,237,229) 100%) no-repeat fixed center;
+background: -ms-linear-gradient(top,  rgb(183,205,186) 0%,rgb(232,237,229) 100%) no-repeat fixed center;
+background: linear-gradient(to bottom,  rgb(183,205,186) 0%,rgb(232,237,229) 100%) no-repeat fixed center;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7cdba', endColorstr='#e8ede5',GradientType=0 ) no-repeat fixed center;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;}
+
+div.content-style {
+    background-color: #fafafa;}
+
+.islandora-solr-facet-wrapper .plusminus {font-size: 12px;}
+
+ul.vertical-tabs-list li a {
+    color: #000000;}
+
+div#top-panels-wrapper {
+    height: 43px;
+}
+#block-islandora-solr-simple {
+    margin: -20px 0 2px 20px;
+margin-top: -17px;
+}
+div.region region-highlighted{border: 1px solid black;}
+
+
+/*CUSTOM STYLES INPUT and OVERIDES. OTHER CSS FOUND IN ADAPTIVETHEME/ISLANDORATHEME AND COROLLA CSS FILES.*/
+
+/*------------Page Wide Styles------------*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*background-image: url('https://lssc-test.digital.flvc.org/sites/lssc-test.digital.flvc.org/files/custom_logos/LSSC_bg_rev.png');*/
+/*background-repeat: repeat-x;*/
+
+/*------------Header------------*/
+div#header-wrapper div#branding {
+border-right: 2px solid #cbcbcb; 
+border-left: 2px solid #cbcbcb;
+background: #003e18; /* Old browsers */
+background: -moz-linear-gradient(left,  #003e18 0%, #00592d 30%, #006033 52%, #005e30 66%, #005429 82%, #00421b 96%, #003611 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#003e18), color-stop(30%,#00592d), color-stop(52%,#006033), color-stop(66%,#005e30), color-stop(82%,#005429), color-stop(96%,#00421b), color-stop(100%,#003611)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #003e18 0%,#00592d 30%,#006033 52%,#005e30 66%,#005429 82%,#00421b 96%,#003611 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #003e18 0%,#00592d 30%,#006033 52%,#005e30 66%,#005429 82%,#00421b 96%,#003611 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #003e18 0%,#00592d 30%,#006033 52%,#005e30 66%,#005429 82%,#00421b 96%,#003611 100%); /* IE10+ */
+background: linear-gradient(to right,  #003e18 0%,#00592d 30%,#006033 52%,#005e30 66%,#005429 82%,#00421b 96%,#003611 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003e18', endColorstr='#003611',GradientType=1 ); /* IE6-9 */
+
+}
+#logo { padding-top: 5px; display: block; text-align: left; }
+
+
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: #f0f6fb; border-right: 2px solid #cbcbcb; border-left: 2px solid #cbcbcb;}
+
+}
+section#block-islandora-solr-simple h2 {
+    color: #004b98; border-bottom: 4px solid #004b98;} /*Search in text color*/
+div#edit-simple label{color:#004b98;} /*'for' color*/
+
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
+
+
+/* ------------MENU BAR STYLES------------ */
+#menu-bar {background: #004b98; border-right: 2px solid #cbcbcb; border-left: 2px solid #cbcbcb; border-bottom: 2px solid #cbcbcb; border-top: 1px solid #cbcbcb;
+}
+.nav .block-menu ul li a.active { background-color: white; }
+.nav .block-menu ul.menu li a {
+    color: #FFFFFF;
+}
+.nav .block-menu ul.menu li a { color: #ffffff;}
+.nav .block-menu ul.menu li a:hover { color: #004b98;}
+.nav .block-menu ul.menu li a.active { color: #004b98;}
+
+#menu-bar .menu-wrapper, #primary-menu-bar .menu-wrapper{font-family: Verdana,sans-serif,serif; font-weight: bold;}
+
+
+/*------------HIGHLIGHTED REGION------------*/
+div.region-highlighted {
+border-right: 2px solid #cbcbcb;
+border-left: 2px solid #cbcbcb;
+background: #fafafa;}
+div.region-highlighted {color: black;} /*highlighted text colors*/
+div.region-highlighted .block-title {color: #004b98; border-bottom: 4px solid #004b98;}/*border bottom*/
+section#block-block-3 {margin-right: 440px;}
+
+section#block-block-3 {
+    padding: 1%;
+    max-width: 700px;
+    min-width: 270px;
+    margin: 1%;
+    width: 55%;
+    border-radius: 5px;
+    clear:none;
+}
+
+section#block-block-2 {
+    float: right;
+    padding: 1%;
+    margin: 1%;
+    max-width: 470px;
+    min-width: 150px;
+    width: 40%;
+    border-radius: 5px;
+clear: none;
+}
+
+/*------------MAIN CONTENT------------*/
+.block-title { font-size: 1.1em; margin-bottom: 10px; border-bottom: 4px solid #404040;}
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #000000; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
+.content-style {border-right: 2px solid #cbcbcb;
+border-left: 2px solid #cbcbcb;}
+
+
+/* ------------FOOTER STYLES------------ */
+div#footer-wrapper .block-inner {
+background: #f0f6fb; border: 2px solid #cbcbcb;}
+#footer-wrapper .block-inner {
+    color: #005f2f;}
+	
+#footer-wrapper .block-inner a.active{color: #ffffff;}
+#footer-wrapper .block-inner li a {color: #ffffff;}
+
+/*VIEW ALL ITEMS - QUERY RESULTS*/
+/*------------Narrow Results - Sort Results Blocks------------*/
+.nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
+.ui-widget-content a { color: #000000; }
+div.region-sidebar-first div.block-inner { background: #e5eef8; border-left: 2px solid #cbcbcb; }
+section#block-islandora-solr-sort div.block-inner { background: #e5eef8; border-left: 2px solid #cbcbcb; }
+
+.ui-widget-header {background: #004b98; }
+
+
+/*----ISLANDORA COLLECTIONS/OBJECTS-----*/
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #fafafa; color: black; text-shadow: none;border-left: 2px solid #cbcbcb; border-right: 2px solid #cbcbcb; }
+
+/* COLLECTION BROWSE STYLES -"SEARCH THIS COLLECTION" BOX */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #404040; background-color: #f0f6fb; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+/*------------OBJECT LEVEL STYLES------------*/
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #004b98;
+	}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: #e5eef8;
+}/*Object Tab -Inactive*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: white;/*OBJECT TAB -ACTIVE*/
+}
+
+/*---------END OBJECT LEVEL STYLES------------*/
+/*----END Islandora collections/objects-----*/
+
+/*Additional tweaks*/
+input.form-button, input.form-submit {
+    padding: 3px 11px;}/*Go button mod*/
+
+.islandora-compound-prev-next { color: white;}
+.islandora-compound-prev-next a{ color: white;}
+
+/*END Additional tweaks*/
+
+/*audio/video template jwplayer size DO NOT REMOVE */
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+
+div.region-three-33-top {
+    margin: 0 20px;
+    padding: 0 0 0;
+}
+
+#main-content h1#page-title {
+    border-bottom: 4px solid #004b98;}
