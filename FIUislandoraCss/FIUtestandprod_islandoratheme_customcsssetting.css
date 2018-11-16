@@ -2,7 +2,6 @@ div.modal-inner {overflow:hidden;}
 
 div.region-highlighted {border-right: 1px solid black; border-left: 1px solid black;}
 
-div#top-panels-wrapper {height: 46px;}
 section#block-islandora-solr-simple {margin-top: -6px;}
 #edit-islandora-simple-search-query {margin-top: -2px;}
 

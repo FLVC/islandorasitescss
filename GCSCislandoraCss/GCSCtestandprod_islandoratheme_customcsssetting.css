@@ -28,9 +28,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007987', end
 #block-islandora-solr-simple {
     margin: -16px 0 2px 20px;
 }
-div#top-panels-wrapper {
-    height: 41px;
-}
 section#block-islandora-solr-simple h2 {
     color: white; border-bottom: 4px solid white} /*Search in text color*/
 div#edit-simple label{color:white;} /*'for' color*/
