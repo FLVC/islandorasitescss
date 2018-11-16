@@ -60,7 +60,6 @@ clear: none;
 
 /* different section */
 
-div#top-panels-wrapper {height: 46px;}
 section#block-islandora-solr-simple {margin-top: -15px;}
 #edit-islandora-simple-search-query{padding-top: 2px;}
 #edit-islandora-simple-collection{margin-top: 1px;}
