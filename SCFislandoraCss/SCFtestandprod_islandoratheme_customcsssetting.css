@@ -26,7 +26,6 @@ background: #ffffff;
 div#top-panels-wrapper .three-3x33 {background: #000000;
 }
 section#block-islandora-solr-simple {margin-top: -16px;}
-div#top-panels-wrapper {height: 40px;}
 section#block-islandora-solr-simple h2 {
     color: white; border-bottom: 4px solid white} /*Search in text color*/
 div#edit-simple label{color:white;} /*'for' color*/
