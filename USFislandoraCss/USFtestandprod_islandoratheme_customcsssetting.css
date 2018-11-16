@@ -1,6 +1,6 @@
 div.modal-inner {overflow:hidden;} 
 
-input#edit-islandora-simple-search-query{padding-bottom: 0px; padding-top: 0px; height: 28px;}
+
 .block-title {text-transform: none;}
 .block h2, h2 {border-bottom: 4px solid #006747; }
 h1#page-title, h1#page-title {color: #006747;}
@@ -8,8 +8,7 @@ h1#page-title, h1#page-title {color: #006747;}
 
 .islandora-solr-facet-wrapper h4{font-size:1.1em;}
 
-div#logo img {
-    margin-left: 20px;}
+
 
 /*CUSTOM STYLES INPUT and OVERIDES. OTHER CSS FOUND IN ADAPTIVETHEME/ISLANDORATHEME AND COROLLA CSS FILES.*/
 
@@ -22,11 +21,13 @@ div#header-wrapper div#branding {
 background: #ffffff; 
 }
 #logo {display: block; text-align: left; }
-
+div#logo img {
+    margin-left: 20px;}
 
 /*--------------"SEARCH IN" Bar----------------*/
 div#top-panels-wrapper .three-3x33 {background: #000000;
 }
+input#edit-islandora-simple-search-query{padding-bottom: 0px; padding-top: 0px; height: 28px;}
 section#block-islandora-solr-simple {margin-top: -16px;}
 section#block-islandora-solr-simple h2 {
     color: white; border-bottom: 2px solid white; font-size: 1.2em;} /*Search in text color*/
