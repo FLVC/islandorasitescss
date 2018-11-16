@@ -10,9 +10,6 @@ background-repeat:repeat-x;
 background-color: #ffffff;
 }
 
-div#top-panels-wrapper {
-    height: 43px;
-}
 #block-islandora-solr-simple {
     margin: -20px 0 2px 20px;
 margin-top: -17px;
