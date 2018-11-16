@@ -34,29 +34,7 @@ text-indent:-119988px;
 height:85%;
 }
 
-/* Hightlighted */
 
-div.region-highlighted {border-right: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC;}
-
-section#block-block-1 {
-    padding: 1%;
-    max-width: 700px;
-    min-width: 270px;
-    margin: 1%;
-    width: 55%;
-    border-radius: 5px;
-    clear:none;
-}
-
-section#block-block-2 {
-    padding: 1%;
-    margin: 1%;
-    max-width: 470px;
-    min-width: 250px;
-    width: 40%;
-    border-radius: 5px;
-clear: none;
-}
 
 /* different section */
 
@@ -111,6 +89,30 @@ section#block-islandora-solr-simple {margin-bottom: -10px;}
 #menu-bar { background-color: black; }
 .nav .block-menu ul li a.active { background-color: white; }
 ul.vertical-tabs-list li a { color: white; }
+
+/* Hightlighted */
+
+div.region-highlighted {border-right: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC;}
+
+section#block-block-1 {
+    padding: 1%;
+    max-width: 700px;
+    min-width: 270px;
+    margin: 1%;
+    width: 55%;
+    border-radius: 5px;
+    clear:none;
+}
+
+section#block-block-2 {
+    padding: 1%;
+    margin: 1%;
+    max-width: 470px;
+    min-width: 250px;
+    width: 40%;
+    border-radius: 5px;
+clear: none;
+}
 
 /*------------MAIN CONTENT------------*/
 .block-title {margin-bottom: 10px; border-bottom: 4px solid #000000;}

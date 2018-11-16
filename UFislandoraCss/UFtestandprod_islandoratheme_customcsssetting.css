@@ -33,16 +33,7 @@ background: #003896;
 
 
 /*--------------"SEARCH IN" Bar----------------*/
-div#top-panels-wrapper .three-3x33 {background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 52%, #d7def0 80%, #ff4a00 85%, #ff4a00 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(52%,#ffffff), color-stop(80%,#d7def0), color-stop(85%,#ff4a00), color-stop(100%,#ff4a00)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 52%,#d7def0 80%,#ff4a00 85%,#ff4a00 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 52%,#d7def0 80%,#ff4a00 85%,#ff4a00 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 52%,#d7def0 80%,#ff4a00 85%,#ff4a00 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 52%,#d7def0 80%,#ff4a00 85%,#ff4a00 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff4a00',GradientType=0 ); /* IE6-9 */
-
-}
+div#top-panels-wrapper .three-3x33 {background: #ffffff; border-bottom: 5px #ff4a00; margin-bottom: 5px;}
 section#block-islandora-solr-simple h2 {
     color: #003896; border-bottom: 4px solid #003896;} /*Search in text color*/
 div#edit-simple label{color:#003896;} /*'for' color*/
@@ -58,7 +49,7 @@ div#edit-simple label{color:#003896;} /*'for' color*/
 section#block-islandora-solr-simple {margin-bottom: -10px;}
 
 /* ------------MENU BAR STYLES------------ */
-#menu-bar {background: #003896;
+#menu-bar {background: #003896; border-top: 5px #ff4a00; margin-top: 5px;
 }
 .nav .block-menu ul li a.active { background-color: white; }
 .nav .block-menu ul.menu li a {
