@@ -46,6 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', end
 /* Trying to get search in not to overlap menu on a narrow screen */
 
 .at-panel {clear: both;}
+/*The ".region-three-33-top" below is for the Grey color background up at the SEARCH IN section*/
 .region-three-33-top .region-inner {background: #eeeeee;}
 #block-islandora-solr-simple { float: left;}
 section#block-islandora-solr-simple {margin-bottom: -10px;}
@@ -72,14 +73,16 @@ ul.vertical-tabs-list li a { color: white; }
 
 /*Main Content*/
 .block-title { font-size: 1.1em; margin-bottom: 10px; border-bottom: 4px solid #222; }
-#main-content h1#page-title { font-size: 1.4em; color: #cc9900; border-bottom: 4px solid #000000; padding-bottom: 7px; }
+/*The h1#page-title items below is for the "UCF Digtal Collections" section on the page. The font color for "SEARCH IN" is changed in the "COLOR SCHEME section in the "Block title" in the "Layout & General Settings"*/
+#main-content h1#page-title { font-size: 1.4em; color: #000000; border-bottom: 4px solid #000000; padding-bottom: 7px; }
 div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
 div.region-highlighted {
 background: #eee;
 }
-div#top-panels-wrapper .three-3x33 { background-color: #eee; }
+/**The ".three-3x33" below is for the Grey color background up at the SEARCH IN section*/
+div#top-panels-wrapper .three-3x33 { background-color: #eeeeee; }
 .nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
-.ui-widget-content a { color: #CC9900; }
+.ui-widget-content a { color: #000000; }
 div.region-sidebar-first div.block-inner { background: #dedede; }
 section#block-islandora-solr-sort div.block-inner { background: #efefef; }
 .ui-widget-header { background: #000000; }
@@ -135,4 +138,3 @@ div.islandora-audio-content {width:480px;}
     margin-left: auto;
     margin-right: auto;
 }
-
