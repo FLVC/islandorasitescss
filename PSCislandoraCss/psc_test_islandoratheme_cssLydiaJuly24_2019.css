@@ -92,8 +92,7 @@ border-left: 1px solid #005c7d;
 
 /*------------Highlighted Region------------*/
 div.region-highlighted {
-background: #f5f5f5;
-margin: 0px;}
+background: #f5f5f5;}
 div.region-highlighted {color: black;} /*highlighted text colors*/
 div.region-highlighted .block-title {color: #036A38; border-bottom: 4px solid black;}/*border bottom*/
 
