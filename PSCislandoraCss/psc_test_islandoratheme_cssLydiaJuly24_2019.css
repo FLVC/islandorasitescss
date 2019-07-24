@@ -114,6 +114,7 @@ section#block-block-2 {
     width: 40%;
     border-radius: 5px;
 clear: none;
+float: right;
 }
 
 div#block-block-1 {
@@ -125,8 +126,7 @@ width: auto;
 #featuredcollectionhomepagebox {
     padding: 1%;
     margin: 1%;
-    max-width: 470px;
-    min-width: 100px;
+    width: 470px;
     border-radius: 5px;
 clear: none;
 float: right;
