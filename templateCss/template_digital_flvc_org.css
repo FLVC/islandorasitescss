@@ -1,0 +1,183 @@
+/* Add any valid CSS declarations */
+div.modal-inner {overflow:hidden;}
+
+/*Site-Specific tweaks*/
+.bb-n {
+background-color: #D9D4C4;
+}
+
+/*CUSTOM STYLES INPUT and OVERIDES. OTHER CSS FOUND IN ADAPTIVETHEME/ISLANDORATHEME AND COROLLA CSS FILES.*/
+
+/*------------Page Wide Styles------------*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*------------Header------------*/
+div#header-wrapper div#branding {
+background: #ffffff;
+}
+#logo { padding-top: 5px; display: block; text-align: left; }
+
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: #d5e8f3;
+}
+section#block-islandora-solr-simple h2 {
+	color: #005c7d; border-bottom: 4px solid #005c7d} /*Search in text color*/
+div#edit-simple label{color:#005c7d;} /*'for' color*/
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #ffffff; }/*???*/
+
+/* ------------Menu Bar Styles------------ */
+#menu-bar {background: #00719a;
+}
+.nav .block-menu ul li a.active { background-color: #007ea9; border-left: 1px solid #005c7d;
+	border-right: 1px solid #007ba8;
+	font-weight: 600;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;}
+ul.vertical-tabs-list li a { color: #ffffff; border-left: 1px solid #005c7d;
+	border-right: 1px solid #007ba8;
+	font-weight: 600;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;}
+.nav .block-menu ul.menu li a { color: #ffffff; border-left: 1px solid #005c7d;
+	border-right: 1px solid #007ba8;
+	font-weight: 600;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;}
+.nav .block-menu ul.menu li a:hover { color: #ffffff; border-left: 1px solid #005c7d;
+	border-right: 1px solid #007ba8;
+	font-weight: 600;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;}
+.nav .block-menu ul.menu li a.active { color: #ffffff; border-left: 1px solid #005c7d;
+	border-right: 1px solid #007ba8;
+	font-weight: 600;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;}
+
+border-left: 1px solid #005c7d;
+	border-right: 1px solid #007ba8;
+	font-size: 1.3em;
+	font-weight: 400;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #000;
+
+#menu-bar .menu-wrapper, #primary-menu-bar .menu-wrapper{font-family: Gibson-Semibold,Helvetica,Arial,sans-serif;}
+
+/*------------Highlighted Region------------*/
+div.region-highlighted {
+background: #f5f5f5}
+div.region-highlighted {color: black;} /*highlighted text colors*/
+div.region-highlighted .block-title {color: black; border-bottom: 4px solid black;}/*border bottom*/
+
+section#block-block-1 {
+    padding: 1%;
+    max-width: 700px;
+    min-width: 270px;
+    margin: 1%;
+    width: 55%;
+    border-radius: 5px;
+    clear:none;
+}
+
+section#block-block-2 {
+    padding: 1%;
+    margin: 1%;
+    max-width: 470px;
+    min-width: 250px;
+    width: 40%;
+    border-radius: 5px;
+clear: none;
+}
+
+/*------------Main Content------------*/
+.block-title { font-size: 1.3em; margin-bottom: 10px; border-bottom: 4px solid #000000;}
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #000000; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
+
+/* ------------Footer Styles------------ */
+div#footer-wrapper .block-inner {
+background: #00719a;}
+#footer-wrapper .block-inner { color: white; }
+#footer-wrapper .block-inner a { color: white; }
+
+
+/*View All Items - Query Results*/
+/*------------Narrow Results - Sort Results Blocks------------*/
+.nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
+.ui-widget-content a { color: #000000; }
+div.region-sidebar-first div.block-inner { background: #f5f5f5; }
+section#block-islandora-solr-sort div.block-inner { background: #d5e8f3; }
+
+.ui-widget-header {background: #00719a; }/*object tab bar*/
+
+/*----Islandora collections/objects-----*/
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #f5f5f5; color: black; text-shadow: none; }
+
+/* Collection Browse Styles -"Search this Collection" box */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #000000; background-color: #e3e3e3; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+/*------------Object Level Styles------------*/
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #00719a;
+    }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+background: #e3e3e3; /* Old browsers */
+background: -moz-linear-gradient(top, #e3e3e3 0%, #8c8b8b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3e3e3), color-stop(100%,#8c8b8b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e3e3e3 0%,#8c8b8b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e3e3e3 0%,#8c8b8b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#8c8b8b',GradientType=0 ); /* IE6-9 */
+}/*Object Tab -Inactive*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+background: white;/*Object Tab -Active*/
+}
+
+
+/*Additional tweaks*/
+input.form-button, input.form-submit {
+	padding: 3px 11px;}/*Go button mod*/
+
+.islandora-compound-prev-next { color: white;}
+.islandora-compound-prev-next a{ color: white;}
+
+/*audio/video template jwplayer size DO NOT REMOVE */
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+	float: none;
+	width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+	float: none;
+	width: 480px;
+}}
+
+
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; }
