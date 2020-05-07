@@ -1,0 +1,176 @@
+div.modal-inner {overflow:hidden;} 
+
+ul.secondary {font-size: 1em;}
+table.manage-datastreams {font-size: 1.05em;}
+
+.islandora-compound-prev-next a {color:black;}
+.islandora-compound-caption {color:black;}
+.islandora-compound-title {color:black;}
+
+ul.vertical-tabs-list li a {
+    color: #000000;}
+
+/*Site-Specific tweaks*/
+.islandora-solr-facet-wrapper a {
+    font-size: 1em;}
+
+/*END Site-Specific tweaks*/
+
+
+/*CUSTOM STYLES INPUT and OVERIDES. OTHER CSS FOUND IN ADAPTIVETHEME/ISLANDORATHEME AND COROLLA CSS FILES.*/
+
+/*------------Page Wide Styles------------*/
+th, thead, thead th { background-color: #dedede; color: #280007; }
+
+/*PERSISTENT/FRONT-ADV.SEARCH/TOP LEVEL STYLES. Header - Footer*/
+
+/*------------Header------------*/
+div#header-wrapper div#branding {
+background: #ffffff;
+}
+#logo { padding-top: 5px; display: block; text-align: left; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; }
+
+
+/*--------------"SEARCH IN" Bar----------------*/
+div#top-panels-wrapper .three-3x33 {background: #008B9F;
+border-left: 1px solid #CCCCCC;
+border-right: 1px solid #CCCCCC;
+}
+section#block-islandora-solr-simple h2 {
+    color: #ffffff; border-bottom: 4px solid #ffffff;} /*Search in text color*/
+div#edit-simple label{color:#ffffff;} /*'for' color*/
+
+/* Basic Search Styles */
+#islandora-basic-view-all-option { border-bottom: 4px solid #000000; }/*View All ?*/
+
+
+/* ------------MENU BAR STYLES------------ */
+#menu-bar {background: #efefea; /* Old browsers */
+background: -moz-linear-gradient(top,  #efefea 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefea), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #efefea 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+ border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; border-bottom: 1px solid #000000;
+}
+.nav .block-menu ul li a.active { background-color: white; }
+.nav .block-menu ul.menu li a {
+    color: #000000;
+}
+.nav .block-menu ul.menu li a { color: #000000; border-left: 1px solid black; border-right: 1px solid black; margin-right: -2px;}
+.nav .block-menu ul.menu li a:hover {color: #000000; background: #bce1e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #bce1e5 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bce1e5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bce1e5 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bce1e5 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bce1e5 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #bce1e5 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce1e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.nav .block-menu ul.menu li a.active {background: -moz-linear-gradient(top,  #efefea 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefea), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #efefea 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #efefea 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */}
+
+#menu-bar .menu-wrapper, #primary-menu-bar .menu-wrapper{font-family: Georgia,'Times New Roman', serif; font-weight: bold;}
+
+
+/*------------HIGHLIGHTED REGION------------*/
+div.region-highlighted {
+border-right: 1px solid #CCCCCC;
+border-left: 1px solid #CCCCCC;
+background: #FCE6D4;}
+div.region-highlighted {color: black;} /*highlighted text colors*/
+div.region-highlighted .block-title {color: black; border-bottom: 4px solid #008B9F;}/*border bottom*/
+
+
+
+/*------------MAIN CONTENT------------*/
+.block-title {margin-bottom: 10px; border-bottom: 4px solid #FF9966;}
+#main-content h1#page-title { font-size: 1.4em; border-bottom: 4px solid #000000; padding-bottom: 7px; }
+div#content h2, div#secondary-content-wrapper h2 { font-size: 1.2em; border-bottom: 4px solid #000000; }
+.content-style {border-right: 1px solid #CCCCCC;
+border-left: 1px solid #CCCCCC;}
+
+
+
+/* ------------FOOTER STYLES------------ */
+div#footer-wrapper .block-inner {
+background: #008B9F;
+border-right: 1px solid #CCCCCC;
+border-left: 1px solid #CCCCCC;
+border-top: 1px solid black}
+#footer-wrapper .block-inner {
+    color: #FFFFFF;}
+	
+#footer-wrapper .block-inner a.active{color: #ffffff;}
+#footer-wrapper .block-inner li a {color: #ffffff;}
+	
+
+
+/*VIEW ALL ITEMS - QUERY RESULTS*/
+/*------------Narrow Results - Sort Results Blocks------------*/
+#block-islandora-solr-basic-facets .block-title {border-bottom: 4px solid #008B9F;}
+.nav .block-menu ul li a, .nav .block-menu ul li a:visited { font-weight: bold; }
+.ui-widget-content a { color: #000000; }
+div.region-sidebar-first div.block-inner { background: #D8F2F2; }
+section#block-islandora-solr-sort div.block-inner { background: #FCE6D4; }
+.ui-widget-header {background: #008B9F; }/*that object content bar thing*/
+
+
+/*----ISLANDORA COLLECTIONS/OBJECTS-----*/
+/* Collection Description Styles */
+#secondary-content-wrapper .block-inner { background-color: #ffffff; color: black; text-shadow: none; }
+
+/* COLLECTION BROWSE STYLES -"SEARCH THIS COLLECTION" BOX */
+#local-collection-search #local-search-container, #secondary-content-wrapper #local-search-container { border: 1px solid #000000; background-color: #e3e3e3; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+
+
+
+/*Additional tweaks*/
+input.form-button, input.form-submit {
+    padding: 3px 11px;}/*Go button mod*/
+
+
+
+/*audio/video template jwplayer size */
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-audio-content {
+    float: none;
+    width: 480px;
+}}
+@media all and (min-width: 768px) {
+body.no-sidebars div.islandora-video-content {
+    float: none;
+    width: 480px;
+}}
+div.islandora-video-content {width:480px;}
+div.islandora-audio-content {width:480px;}
+
+div.region-three-33-top {
+    margin: 0 20px;
+    padding: 0 0 0;
+}
+
+#main-content h1#page-title {
+    border-bottom: 4px solid #FF9966;}
+
+.islandora-pdf-thumbnail img, .islandora-basic-image-thumbnail img, .islandora-large-image-thumbnail img {max-width:200px;}
+
+img.islandora-basic-collection-datastream-banner {
+  box-shadow: 5px 5px 5px #bbb;
+  border-radius: 10px;
+}
+
+/*Slideshow*/
+.flexslider { margin-bottom: 0px; border: none; }
+.region-highlighted .block-inner { margin-left: 0; margin-right: 0; }
+div.region-highlighted { padding: 0; }
+div.region-highlighted .block:last-child { margin-bottom: 0; }
+.flex-control-nav { display: none; }
