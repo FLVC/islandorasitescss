@@ -37,14 +37,12 @@ div#edit-simple label{color:#005c7d;} /*'for' color*/
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 -1px 0 #000;}
-ul.vertical-tabs-list li a { color: #ffffff; border-left: 1px solid #005c7d;
-	border-right: 1px solid #007ba8;
-	font-weight: 600;
-	padding-left: 1em;
-	padding-right: 1em;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0 -1px 0 #000;}
+ul.vertical-tabs-list li a { color: #fffff;
+    font-weight: 600;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    text-decoration: none;}
 .nav .block-menu ul.menu li a { color: #ffffff; border-left: 1px solid #005c7d;
 	border-right: 1px solid #007ba8;
 	font-weight: 600;
